@@ -1,0 +1,81 @@
+.logo {
+  width: 100px;
+}
+.lis {
+  text-decoration: none;
+  color: grey;
+}
+/* for rotated image  in Content part 2 */
+.rotated {
+  transform: rotate(5deg); /* Equal to rotateZ(45deg) */
+  background-color: pink;
+}
+.op {
+  opacity: 0.9;
+}
+.back:hover {
+  border: 0.5px solid rebeccapurple;
+  background-color: coral;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.back2:hover {
+  border: 0.5px solid rebeccapurple;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.bak3 {
+  background-image: url("../Images/About image/ocean2.jpg");
+}
+.im2 {
+  height: 200px;
+}
+.im5 {
+  width: 70px;
+}
+footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+/* .item1:hover {
+  border: 1px solid;
+  border-radius: 10px;
+} */
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+/* End for footer */
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goodvibe | Categories</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script src="https://kit.fontawesome.com/34ce5b6af8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS Files/Style.css" />
+    <link rel="stylesheet" href="./CSS Files/categories.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar-light fixed-top opacity-75 border-0"
+      style="background-color: #7c7c7c"
+    >
+      <div class="container-fluid">
+        <img class="logo navbar-brand" src="Images/icon/logo.png" alt="" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link back" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle back"
+                href="categories.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item back2"   onclick="show('Section1');" href="#"
+                    >Health</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item back2" onclick="show('Section2');" href="#"
+                    >Sport</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item back2" onclick="show('Section3');" href="#"
+                    >Beauty</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item back2" onclick="show('Section4');" href="#"
+                    >Technology</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item back2" onclick="show('Section5');" href="#"
+                    >Others</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link back" aria-current="page" href="About.html"
+                >About</a>
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link back" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="hero container-fluid">
+        <div class="abc">
+          <h1>Goodvibe</h1>
+          <p>Welcome to Goodvibe! Start your week</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="full-text text-center" style="color: #7c7c7c">
+          <h1
+            class="mb-5 mt-5 text-dark strong"
+            style="
+              font-size: 50px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            "
+          >
+            Goodvibe Articles
+          </h1>
+          <p style="line-height: 1cm">
+            We are "Good vide" magazine website.We promise to you we will give the things what happened all over the world.We have many employee  all over the world.If you want to know the things what happened all over the world,you can join and follow to us.....  
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 text-center">
+            <h2>How to Read</h2>
+            <p style="line-height: 0.8cm">
+              You
+             can read in this categories two way.One is header categories ,you can read you want to know by clicking link.Two is button in this site ,you can click buton menu.
+            </p>
+          </div>
+          <div class="col-sm-6 text-center">
+            <h2 class="">How to send</h2>
+            <p style="line-height: 0.8cm">
+              If you want to sent feedback and tell about to our gmail.You can contact me to contact link as header.Thank you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5 has-img-bg text-center">
+      <div class="container">
+        <h6 class="display-3 has-line">Todays' News</h6>
+        <h5 class="mb-5 font-weight-light">
+          Tap the categories button, and keep in touch with the world!
+        </h5>
+        <a href="#" onclick="show('Section1');"
+          ><button class="btn btn-outline-light btn-flat">Health</button></a
+        >
+        <a href="#" onclick="show('Section2');"
+          ><button class="btn btn-outline-light btn-flat">Sport</button></a
+        >
+        <a href="#" onclick="show('Section3');"
+          ><button class="btn btn-outline-light btn-flat">Beauty</button></a
+        >
+        <a href="#" onclick="show('Section4');"
+          ><button class="btn btn-outline-light btn-flat">Technology</button></a
+        >
+        <a href="#" onclick="show('Section5');"
+          ><button class="btn btn-outline-light btn-flat">Others</button></a
+        >
+      </div>
+    </section>
+
+    <!-- Section 1 Start -->
+    <section class=" " id="Section1" style="display: none">
+      <div class="container">
+        <h1 class="p-5 tt" style="font-size: 60px">HEALTH</h1>
+        <div class="grid">
+          <div class="item blog shadow">
+            <div class="content">
+              <div class="title">
+                <h3>1. post</h3>
+              </div>
+              <div class="desc">
+                <h4>Accepted COVID-19 Vaccines for Entry to Singapore</h4>
+                <p>
+                  Travellers are considered fully vaccinated if they meet the
+                  following conditions at least 2 weeks before arrival in
+                  Singapore: Received the full regimen of WHO EUL Vaccines
+                  (below) and met the minimum dose interval period; or For
+                  travellers who contracted COVID-19 before being vaccinated,
+                  they must have received at least one dose of any WHO EUL
+                  Vaccines (below) at least 28 days from their first diagnosis
+                  of a COVID-19 infection. Travellers must produce acceptable
+                  proof of their first positive COVID-19 diagnosis.
+                </p>
+                <a href="#"> <button class="btn post">Read More >></button></a>
+              </div>
+            </div>
+          </div>
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>2: post</h3>
+              </div>
+
+              <div class="desc">
+                <h3>Home Treatments: How To Relieve Stomach Aches at Home</h3>
+                <p>
+                  If you are experiencing a slight pain in your stomach, try to
+                  ease the discomfort with one of these home treatments: Sip
+                  water Avoid solid food for a few hours Avoid milk and other
+                  dairy products Reduce intake of coffee, tea and alcohol as
+                  these can worsen the pain Try over-the-counter antacids to
+                  help reduce some types of stomach pain
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>3: post</h3>
+              </div>
+              <!-- <img
+                class="photothumb"
+                src="https://assets.codepen.io/881020/dog2.jpg"
+              /> -->
+              <div class="desc">
+                  <h3>Where To Get Treatment for Abdominal Pain</h3>
+                <p>
+                    Depending on the severity of your condition, you can get timely treatment by going to the appropriate healthcare option.
+
+                    When You Have Abdominal Pain, See Your General Practitioner if You Also Have:
+                    Fever
+                    Diarrhoea
+                    Vomiting
+                    Mild pain
+                    Your GP is well placed to treat mild-to-moderate symptoms at the clinic and refer you to a specialist when necessary.
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>4: post</h3>
+              </div>
+              
+              <div class="desc">
+               
+                <p>
+                    <h3>What is Acoustic Neuroma? </h3>
+                    Acoustic neuroma (also called vestibular schwannoma) is a non-cancerous growth that develops on the eighth cranial nerve, which connects the inner ear with the brain. One part of this nerve, known as the cochlear division, transmits sound, while the other, the vestibular division, sends balance information from your inner ear to brain. In most cases, the condition affects one’s hearing and balance.
+                    Acoustic neuroma (also called vestibular schwannoma) is a non-cancerous growth that develops on the eighth cranial nerve, which connects the inner ear with the brain. One part of this nerve, known as the cochlear division, transmits sound, while the other, the vestibular division, sends balance information from your inner ear to brain. In most cases, the condition affects one’s hearing and balance.
+
+                    
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>5: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Symptoms of Acoustic Neuroma</h3>
+                <p>
+                    Over 90 percent of patients with acoustic neuroma experience one-sided deafness, often accompanied by tinnitus — the perception of noise or ringing in the affected ear. The deafness may be gradual or sudden. A common pattern of deafness among those with acoustic neuroma is lower speech discrimination, which is the ability to understand words when listening to someone speak on the telephone.
+
+                    Dizziness and balancing problems may occur early in the growth of the tumour, and can worsen as the vestibular division continues to deteriorate. If large enough, the tumour may grow on other cranial nerves and cause facial numbness, weakness of the facial muscles or swallowing problems. Some people may experience an unsteady gait brought on by the pressure placed on the cerebellum. Acoustic neuromas that are very large may also cause headaches.
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>6: post</h3>
+              </div>
+              <div class="desc">
+                  <h3>Surgery</h3>
+                <p>
+                    An acoustic neuroma can be removed through a surgical procedure if it is large enough and severely affecting your facial movements and hearing. At times, the entire tumour may not be completely removed if the tumour is too close to critical parts of the brain or facial nerves. There may be complications associated with the surgical removal of an acoustic neuroma, including hearing loss, facial weakness and paralysis, double vision, swallowing problems, mouth dryness, and unsteadiness. The likelihood of unexpected complications is generally low but include infection, bleeding, stroke, seizures, paralysis of limbs, coma and death.
+                </p>
+                
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>7: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Allergies (Child) - Symptoms</h3>
+                <p>
+                    Most allergic reactions are easily controlled. But some can lead to an anaphylactic reaction, which is a serious allergic reaction that progresses rapidly and can be fatal. Symptoms may include a combination of rashes, shortness of breath, chest pain or tightness, weak pulse, dizziness, swelling of the eyes, lips or tongue, difficulty swallowing, abdominal cramps or vomiting. An anaphylactic reaction is an emergency, which needs immediate medical attention.
+
+                    Listed below are some common allergies, their symptoms and triggers. Consult your doctor if your child displays any of these symptoms.
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>8: post</h3>
+              </div>
+              <div class="desc">
+                  <h3>Asthma and Allergic Rhinitis</h3>
+                <p>
+                    Children with asthma often have cough, tight chest or difficulty breathing. These signs are worse in the morning or at night and could also be due to exercise or physical activity.
+
+                    Common triggers include viral infections, cigarette smoke, house dust mites, animal fur, weather changes and even stress.
+                    Allergic rhinitis is usually due to inhaling house dust mites, mould and animal dander. The condition can be frustrating to a child as he or she will sneeze often and have an itchy and runny nose, which can get stuffy. The child may start to breathe through the mouth. Often the child also has watery and itchy eyes, which may become red and swollen.
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>9: post</h3>
+              </div>
+              
+              <div class="desc">
+                  <h3>Eczema and Food allergies</h3>
+                <p>
+                    In infants, eczema tends to occur on the cheeks, behind the ears and on the thighs. As the child grows, these dry, itchy and red patches are often found in the folds of the neck, arms and legs. Eczema can be worsened by food allergies or contact with allergens such as house dust mites and animal fur.
+                    These can be mild or serious enough to cause an anaphylactic reaction. Common triggers include peanuts, eggs, wheat, soy and shellfish.
+
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>10: post</h3>
+              </div>
+              <div class="desc">
+                  <h3>Hives and Contact dermatitis</h3>
+                <p>
+                    Hives are commonly caused by food allergies, medicines and viral infections. These raised, red and itchy skin patches look like mosquito bites and can be found on different parts of the body. They usually appear in crops and do not stay at the same spot for more than a few hours.
+                    Unlike hives, the red itchy patches are confined to areas which have come into direct contact with the allergen, which may include chemicals found in perfumes, cosmetics, detergents or plant substances such as poison ivy. If severe, the rashes may even blister.
+                </p>
+               
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>11: post</h3>
+              </div>
+              
+              <div class="desc">
+                  <h3>Causes of Allergies (Child):</h3>
+                <p>
+                  LWhat causes allergies is not exactly known. Allergies tend to run in families so if either parent has an allergy, the child has a higher chance of getting allergies. However, some children have allergies even if no one in the family does. There is usually a history of contact with an allergen, which is a substance that can be eaten, inhaled, injected or come into contact with the skin. Common allergens include peanuts, pollen, medicines, insect stings and animal dander.
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>12: post</h3>
+              </div>
+              <div class="desc">
+               <h3>Risk factors of Allergies (Child):</h3>
+                <p>
+                    Children have a higher risk of developing allergies than adults, although some children outgrow their allergies as they get older. A family history of allergies and having asthma also increase the child’s risk of allergies.
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>13: post</h3>
+              </div>
+              <div class="desc">
+                  <h3>Primary and secondary risk factors:</h3>
+                <p>
+                    Allergies are hereditary and passed from parents to children. So a child with at least one parent with allergies is likely to develop allergies. A child with asthma is also more likely to develop other allergies.
+                    Exposure to allergens when the body’s immune system is weak, such as after a viral infection, also seems to increase the risk of allergies.
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>14: post</h3>
+              </div>
+              
+              <div class="desc">
+                  <h3>Allergies (Child) - Treatments</h3>
+                <p>
+                    The first and most important step in treatment is to identify and avoid your allergy triggers. Your doctor may also prescribe allergy medications to reduce your symptoms. The medication depends on the type of allergy and can be over-the-counter or prescription drugs in the form of oral medications, nasal sprays or eye drops.
+
+                    In severe allergies, your doctor may suggest allergy shots. Also called immunotherapy, this treatment involves a series of injections of purified allergen extracts, given usually over a period of a few years.
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>15: post</h3>
+              </div>
+              
+              <div class="desc">
+                  <h3>Allergies (Child) - Other Information
+                    When To Seek Help</h3>
+                <p>Lorem ipsum dolor sit amet, conse
+                    Seek medication attention if your symptoms get worse over a few days, or if they do not improve with treatment. You should see a doctor at once if you suddenly develop severe or rapidly worsening symptoms such as:
+                    <ol>
+                        <li>swelling of the lips, tongue, or throat</li>
+                        <li>wheezing, chest tightness, loud breathing, or trouble breathing</li>
+                        <li>sweating, nausea, or vomiting</li>
+                        <li>widespread rash</li>
+                    </ol>
+
+       
+
+
+
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          
+
+         
+        </div>
+      </div>
+    </section>
+    <!-- Section 2 Start -->
+    <section class="pb-5" id="Section2" style="display: none">
+      <div class="container">
+        <h1 class="tt p-5" style="font-size: 60px">Weekly Sports</h1>
+        <div class="grid">
+          <div class="item blog shadow">
+            <div class="content">
+              <div class="title">
+                <h3>1: post</h3>
+              </div>
+              <div class="desc">
+                  <h3>ဘဏ္ဍာရေး အကျပ်အတည်းကြောင့် ပိုင်ဆိုင်မှု ရှယ်ယာ တစ်ချို့ ကို ရောင်းချဖို့ သဘောတူလိုက်ပြီ ဖြစ်တဲ့ ပြင်သစ် လီဂူူးဝမ်း</h3>
+                <p>
+                    ကမ္ဘာ့ ကပ်ရောဂါဆိုးကြီးကြောင့် ရိုတ်ခတ်မှု အကြီးမားဆုံး ဖြစ်ခဲ့တဲ့ စီးပွားရေးတွေထဲမှာ ပရိသတ် အခြေပြု မောင်းနှင်ကြတဲ့ အားကစား စီးပွားရေးက အထိခိုက်ဆုံး ဖြစ်ခဲ့ပါတယ်။
+
+                    အသင်းအများစု ဟာ ပရိသတ် မပါပဲ ပွဲစဉ်တွေ ဆက်တိုက် ကစားရတာ ၊ တစ်ချို့ ပြိုင်ပွဲတွေ ရွှေ့ဆိုင်းလိုက်ရတာတွေကြောင့် ဝင်ငွေ ပမာဏတွေဟာ ရုတ်ချည်းဆိုသလို ဆက်တိုက် ထိုးကျသွားခဲ့ရပါတယ်။
+                    ဒါကြောင့်မို့ ပြိုင်ပွဲ အသီးသီး ဟာ ဘဏ္ဍာရေး အကျပ်အတည်းကနေ ရုန်းထွက်ပြီး ၊ ပုံမှန် အခြေအနေပြန်လည် ရောက်ရှိနိုင်ဖို့ အတွက် ပြင်ပ ရင်းနှီးမြုပ်နှံမှုတွေ ဆက်တိုက် ရှာဖွေခဲ့ကြပါတယ်။ ပြီးခဲ့တဲ့ နှစ် တစ်နှစ်ထဲတင် အားကစား ပြိုင်ပွဲတွေက ရှယ်ယာတွေ ကို ဝယ်ယူ ရင်းနှီးမြုပ်တဲ့မှုပေါင်း ဒေါ်လာ 51 ဘီလီယံ အထိရှိခဲ့ကာ ၊ ဥရောပ တစ်နေရာထဲမှာပဲ 22 ဘီလီယံ ရှိခဲ့ပါတယ်။
+                </p>
+                <a href="#"> <button class="btn post">Read More >></button></a>
+              </div>
+            </div>
+          </div>
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>2: post</h3>
+              </div>
+              
+              <div class="desc">
+                  <h3>အေဘရာမိုဗစ်ခ်ျ ခေတ်လွန် ချဲလ်ဆီးနဲ့ ပရီးမီးယားလိဂ်မှာ ဘာတွေ သက်ရောက် ပြောင်းလဲနိုင်လဲ ဆိုတာ ခန့်မှန်း ပြောဆိုလိုက်တဲ့ ဂယ်ရီနဗီးလ်</h3>
+                <p>
+                    ရုရှား ဘီလျံနာ ရိုမန် အေဘရာမိုဗစ်ခ်ျ ဟာ ဗြိတိန် အစိုးရထံမှ စီးပွားရေး အရ ပိတ်ဆို့ အရေးယူမှုတွေ ခံထားရသည့်တိုင် ၊ သူ အနှစ် ၂၀ နီးပါး ပိုင်ဆိုင်ခဲ့တဲ့ ချဲလ်ဆီး အသင်းကို ရောင်းချဖို့ မီးစိမ်းပြထားရာ ၊ လာမယ့် ရက်သတ္တပတ် အနည်းငယ် အတွင်းမှာ ပိုင်ရှင်အသစ် ဘယ်သူ ဖြစ်လာမလဲ ဆိုတာ သိရဖို့ ရှိပါတယ် ။
+                    ချဲလ်ဆီး အသင်းကို ဝယ်ယူဖို့ အတွက် ကမ်းလှမ်းမှုတွေထဲက နောက်ဆုံး ဆန်ခါတင်စာရင်း ထွက်ပေါ်ထားရာ ၊ ထိုအထဲမှာ အမေရိကန်မှ စီးပွားရေး လုပ်ငန်းရှင်တွေက အဓိက လွှမ်းမိုးထားပါတယ် ။ ဒီတော့ ပိုင်ရှင် အသစ်သာ အမေရိကန် ရှယ်ယာအစုအဖွဲ့ ဖြစ်ခဲ့ရင် ချဲလ်ဆီးရဲ့ အနာဂတ် ဟာ ကြီးကြီးမားမား အပြောင်းအလဲ ဖြစ်လာနိုင်ပါတယ် ။
+
+                   မန်ချက်စတာ ယူနိုက်တက် ဂန္တဝင် နောက်ခံလူဟောင်း ဂယ်ရီနဗီးလ် ကတော့ အမေရိကန် လုပ်ငန်းရှင်တွေက ငွေအရင်စိုက်ထုတ်ဖို့ထက် ၊ အမြတ်ငွေ ရှာဖို့သာ ခေါင်းထဲရှိတတ်တာကြောင့် ၊ အနာဂတ်မှာ ချဲလ်ဆီးနဲ့ ပရီးမီးယားလိဂ် အပေါ် စိုးရိမ်စရာကောင်းတဲ့ သက်ရောက် ပြောင်းလဲမှုတွေ ဖြစ်လာနိုင်ကြောင်း အခုလိုပဲ ဖွင့်ဟခဲ့ပါတယ် ။
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>3: post</h3>
+              </div>
+              
+              <div class="desc">
+                  <h3>ယူကရိန်း ဒုက္ခသည် အယောက် 30 ကို အိမ်ပေါ် ခေါ်တင်ပြီး ကူညီ စောင့်ရှောက်ထားတဲ့ ကီလော် နာဗက်</h3>
+                <p>
+                    ပီအက်စ်ဂျီ အသင်းရဲ့ ဂိုးသမားကြီး ကီလော် နာဗက် က ရုရှား ကျူးကျော်စစ်ကြောင့် ယူကရိန်း ကနေ ထွက်ခွာလာတဲ့ ဒုက္ခသည် အယောက် 30 ကို သူ့ရဲ့ အိမ်မှာပဲ ခေါ်တင်ကာ နွေးနွေးထွေးထွေး နဲ့ ခိုလုံခွင့် ပေးထားပါတယ်။
+                    နာဗက် နဲ့ ဇနီး ဖြစ်သူ အန်ဒရီယာ ဆာလတ် တို့ဟာ ကုတင် 30 ကို ချက်ခြင်း ဝယ်ကာ သူတို့ အိမ်ထဲက Theatre ထဲပြီး ဒုက္ခသည်တွေ အိပ်စက် နားနေနိုင်ဖို့ စီစဉ်ပေးခဲ့ပါတယ်။ ဒါ့အပြင် စစ်ဘေးရှောင်တွေ အတွက် အစားအသောက် နဲ့ အဝတ်အထည်တွေကိုပါ ထောက်ပံ့နေတယ်လို့ Sport သတင်းမှာ ဖော်ပြထားပါတယ်။
+                    နာဗက် ဟာ ဘာစီလိုနာ အခြေစိုက် The Association of Gypsies အဖွဲ့စည်း နဲ့ ချိတ်ဆက်မိခဲ့ပြီး ၊ အဲဒီ အဖွဲ့ဟာ Krakow ကို သွားရောက်ရင်း ဒုက္ခသည်တွေကို တွေ့ဆုံခဲ့ရာကနေ ၊ နာဗက် တို့ မိသားစု ကူညီမှုတွေ ပေးနိုင်အောင် စီစဉ်ပေးခဲ့တာလို့ သိရပါတယ်။
+
+
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>4: post</h3>
+              </div>
+              <div class="desc">
+                <h3>သူသာ ရှိရင် အီတလီတို့ ကမ္ဘာ့ဖလား ဝင်ပြိုင်ခွင့် ရနိုင်လောက်ကြောင်း သွယ်ဝိုက်စကား ဆိုလိုက်တဲ့ ဘာလော့တယ်လီ</h3>
+                <p>
+                    အီတလီ လက်ရွေးစင် အသင်း ဟာ ပြီးခဲ့တဲ့ အပတ်က ကစားခဲ့တဲ့ ၂၀၂၂ ကမ္ဘာ့ဖလား ဝင်ခွင့် တနေရာ အတွက် play-off ဆီမီးဖိုင်နယ်ပွဲမှာ မြောက်မက်ဆီဒိုးနီးယား အသင်းကို အိမ်ကွင်းမှာ မထင်မှတ်ပဲ ၀ – ၁ ရလဒ်နဲ့ အရေးနိမ့်ခဲ့ပါတယ် ။
+                    ဒီ ရှုံးပွဲကြောင့် အီတလီ အသင်း ဟာ ၂၀၁၈ ၊ ၂၀၂၂ ကမ္ဘာ့ဖလား ပြိုင်ပွဲ ၂ခုဆက် ဝင်ပြိုင်ခွင့် ပျောက်ဆုံးခဲ့ပြီ ဖြစ်ပါတယ် ။ ထိုပွဲမှာ အီတလီ ဟာ ကစားပုံ အသာ ၊ ဘောလုံးပိုင်ဆိုင်မှု အသာ ၊ ဂိုးပေါက် ခြိမ်းခြောက်မှု အသာ ရခဲ့ပေမယ့် ၊ နာကျင် အချိန်ပိုမှာ မြောက်မက်ဆီဒိုးနီးယားဖက်မှ အဝေးကန်ချက် သွင်းဂိုးကို ခွင့်ပြုပြီး ရှုံးနိမ့်ခဲ့ရပါတယ် ။
+
+                   အီတလီ ဟာ တပွဲလုံး ဂိုးပေါက် ခြိမ်းခြောက်မှု ၃၂ ကြိမ် အထိ ရှိခဲ့ပြီး ၊ ထိုအထဲက တကြိမ်မှ မြောက်မက်ဆီဒိုးနီးယား ဂိုးသမား ဒီမီထရီယက်ဗ်စကီးကို မကျော်ဖြတ်နိုင်ခဲ့ပါဘူး ။ ဒီတော့ ပရိသတ်တွေ မျှော်လင့် စောင့်စားခဲ့ကြတဲ့ ပေါ်တူဂီ – အီတလီ play-off ဖိုင်နယ်လည်း ဖြစ်မလာခဲ့ပါဘူး ။
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>5: post</h3>
+              </div>
+              <div class="desc">
+                <h3>ချန်ပီယံလိဂ် ကွာတားဖိုင်နယ်မှာ ရင်ဆိုင်ရမယ့် ချဲလ်ဆီး အသင်းနဲ့ ပတ်သက်ပြီး ဝန်ခံမှု တစ်ခု လုပ်သွားတဲ့ တိုနီ ကရူးစ်</h3>
+                <p>
+                    လာမယ့် ဧပြီလ ပထမ အပတ်ထဲမှာ ချန်ပီယံလိဂ် ကွာတားဖိုင်နယ် အဆင့် ပထမ အကျော့ ပွဲတွေ စတင် ကစားသွားဖို့ ရှိရာ ၊ ထိုအထဲမှာ ဘောလုံး ပရိသတ် အများစု စောင့်မျှော်ကြမယ့် ပွဲကတော့ ချဲလ်ဆီး – ရီးရဲလ်မက်ဒရစ် ပွဲပဲ ဖြစ်ပါတယ် ။
+                    ပြီးခဲ့တဲ့ ရာသီမှာတုန်းက ချဲလ်ဆီး ဟာ ရီးရဲလ်မက်ဒရစ်ကို ၂ကျော့ပေါင်း ရလဒ် ၃ – ၁ နဲ့ အနိုင်ရကာ ၊ ဗိုလ်လုပွဲသို့ တက်လှမ်းနိုင်ခဲ့ပြီးနောက် ၊ ဖိုင်နယ်မှာ မန်စီးတီးကို ၁ – ၀ နဲ့ အနိုင်ရပြီး ၊ ကလပ် သမိုင်းတလျှောက် ဒုတိယ အကြိမ်မြောက် ချန်ပီယံလိဂ် ဖလားကို ဆွတ်ခူးနိုင်ခဲ့ပါတယ် ။
+                    ချဲလ်ဆီး ဟာ ပြီးခဲ့တဲ့ ၁၆သင်း ရှုံးထွက်အဆင့်မှာ ပြင်သစ် ချန်ပီယံ လိုင်လီ အသင်းကို ၂ကျော့ပေါင်း ရလဒ် ၄ – ၁ နဲ့ အနိုင်ယူ ကျော်ဖြတ်ခဲ့ပြီး ၊ ရီးရဲလ်မက်ဒရစ် ကတော့ ပီအက်စ်ဂျီ အသင်းကို ၂ကျော့ပေါင်း ရလဒ် ၃ – ၂ နဲ့ အနိုင်ရကာ ၊ ကွာတားဖိုင်နယ်သို့ တက်လှမ်းနိုင်ခဲ့တာ ဖြစ်ပါတယ် ။
+
+
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>6: post</h3>
+              </div>
+              <div class="desc">
+                  <h3>အွန်နရီ ရဲ့ကျောနံပါတ် ၁၄ ကို ဝတ်ဆင်ဖို့ အခွင့်အရေး ရခဲ့ပေမယ့် ငြင်းဆန်ခဲ့တဲ့ အကြောင်းအရင်းကို ရှင်းပြလိုက်တဲ့ အက်ဒွာဒို</h3>
+                <p>
+                    အာဆင်နယ် အသင်းဟာ အွန်နရီ နေရာ အစားထိုးဖို့ရာ ဒိုင်နမို ဇာဂရက် အသင်းကနေ အက်ဒွာဒို ဒါဆေးလ်ဗား ကို ခေါ်ယူ ခဲ့တာ ဖြစ်ပြီး ဒဏ်ရာ မရခင်ကအထိ အသင်းအတွက် ခြေစွမ်းပြ ဂိုးတွေ သွင်းယူ နေသူပါ ။ဒါပေမယ့်လည်း ဒဏ်ရာ ရပြီး နောက်ပိုင်းမှာတော့ ဒါဆေးလ်ဗား ဟာ အရင်လို ပုံမှန် ခြေစွမ်းပြန်ရဖို့ ရုန်းကန် ခဲ့ရပါတယ် ။
+                
+                ၂၀၀၈ ခုနှစ် တုန်းက အာဆင်နယ် နဲ့ ဘာမင်ဂမ် တို့ ကစားခဲ့တဲ့ ပရီးမီးယားလိဂ် ပွဲစဉ်မှာ ဂန်းနား တိုက်စစ်မှူး အက်ဒွာဒို ဒါဆေးလ်ဗား ဟာ ပြိုင်ဘက် နောက်ခံလူ မာတင် တေလာ ရဲ့ ကြမ်းတမ်းတဲ့ ဖျက်ထုတ်မှုကြောင့် ခြေဖျံရိုး ကျိုးသွားပြီး ခြေချင်းဝတ်ပါ လည်ထွက်သွားခဲ့ရပါတယ် ။
+
+                အဆိုပါ ဒဏ်ရာကြောင့် ခရိုအေးရှား တိုက်စစ်မှူး အက်ဒွာဒို ဒါဆေးလ်ဗား ဟာ တစ်နှစ်ကြာ အနားယူ ခဲ့ရပါတယ် ။ အက်ဒွာဒို ဒဏ်ရာ ရသွားတာကြောင့် အာဆင်နယ် အသင်းဟာ ၂၀၀၇-၂၀၀၈ ပရီးမီးယား ချန်ပီယံဆု နဲ့ လွဲချော် ခဲ့ရတာ ဖြစ်တယ်လို့လည်း သုံးသပ်မှုတွေ ရှိခဲ့ပါတယ် ။ 
+            </p> 
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>7: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Boycott လုပ်ခံတော့မယ့် ယူကရိန်း ကစားသမားဟောင်းကြီး တိုင်မိုချု့</h3>
+                <p>
+                    တော်လှန်ရေး တစ်ခု ဖြစ်ပြီ ဆိုတာ နဲ့ ပြည်သူတွေ နဲ့ တစ်သားတည်း ရပ်တည်ဖို့ နှုတ်ဆိတ်နေသူတိုင်း Boycott လုပ်ခံရလေ့ရှိပါတယ်။
+
+                    လက်ရှိမှာတော့ ကမ္ဘာကျော် ယူကရိန်း ဘောလုံးသမားဟောင်းကြီး တိုင်မိုချု့ ဟာ အလားတူ အခြေအနေမျိုး နဲ့ ရင်ဆိုင်နေရပြီ ဖြစ်ပါတယ်။
+                    သူဟာ ယူကရိန်း လက်ရွေးစင် ဘောလုံး အသင်း အတွက် ပွဲအရေအတွက် အများဆုံး ကစားပေးထားသူ ဖြစ်ပြီး ၊ လက်ရှိမှာ ဇင်းနစ် အသင်းရဲ့ လက်ထောက်နည်းပြ အဖြစ် လုပ်ကိုင်လျှက် ရှိနေပါတယ်။ ရုရှား က ယူကရိန်း နိုင်ငံကို ကျူးကျော်စစ် ဆင်နွှဲနေချိန်မှာ ၊ တိုင်မိုချု့ ကတော့ သူ့ရဲ့ ပြည်သူတွေ နဲ့ တစ်သားတည်း ရပ်တည်ကြောင်း အခုချိန်ထိ တရားဝင် ထုတ်ဖော် ပြောဆိုခြင်း မရှိသလို ၊ ဒီကိစ္စနဲ့ ပတ်သက်လာရင် နှုတ်ဆိတ်နေတာ ကြာခဲ့ပါပြီ။
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>8: post</h3>
+              </div>
+              <div class="desc">
+                  <h3>မန်ချက်စတာယူနိုက်တက် အတွက် အသင့်တော်ဆုံး မန်နေဂျာကို ပြောပြသွားခဲ့တဲ့ လီဗာပူး ကစားသမားဟောင်း</h3>
+                <p>
+                    လီဗာပူး ကစားသမားဟောင်း ဖြစ်သူ ဒါးကောက်က မန်ချက်စတာယူနိုက်တက် အသင်း အနေနဲ့ လာမည့် နွေရာသီမှာ အဲရစ်တန်းဟတ်ကို နည်းပြသစ် အဖြစ် ခန့်အပ်လိုက်မယ် ဆိုရင် အရမ်းကောင်းတဲ့ မန်နေဂျာ တစ်ဦးကို ပိုင်ဆိုင်သွားလိမ့်မယ်လို့ ယုံကြည်နေပါတယ်။ မန်ယူနိုက်တက်ဟာ ပြီးခဲ့တဲ့ နို၀င်ဘာလက အိုလီဂန်နာဆိုးရှားကို နည်းပြရာထူးကနေ ထုတ်ပယ်ခဲ့ပြီးနောက် ရပ်ဖ်ရန်းနစ်ကို ယာယီနည်းပြ အဖြစ် ခန့်အပ်ထားခဲ့ပြီး လက်ရှိ အချိန်မှာ အမြဲတမ်း မန်နေဂျာ ခန့်အပ်ဖို့ အတွက် လုပ်ဆောင်လျက် ရှိနေပါတယ်။
+                    ဒါးကောက်က “တန်းဟတ်ဟာ တကယ့်ကို တော်ပြီး အတွေ့အကြုံ ကြွယ်၀တဲ့ နည်းပြတစ်ဦး ဖြစ်ပါတယ်။ သူဟာ ဘိုင်ယန်မြူးနစ် ဒုတိယအသင်း အဲဒီနောက် အူးထရပ် နဲ့ အခုဆိုရင် အိုင်ယက် တို့ကို အဆင့်ဆင့် ကိုင်တွယ်ကာ အလုပ်သင်ကာလကို ကျော်ဖြတ်ပြီးခဲ့ပြီလို့ ဆိုလို့ ရပါတယ်။ သူဟာ ကွင်းတွင်း ကွင်းပြင် ကိုယ့်ကိုကိုယ် များစွာ တိုးတက်အောင် လုပ်ထားခဲ့တဲ့ ကြီးကြယ်တဲ့ မန်နေဂျာ ဖြစ်ပါတယ်။
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>9: post</h3>
+              </div>
+              
+              <div class="desc">
+                  <h3>ဖာဂူဆန်လို ကစားကွက်မျိုး ယူဆောင်လာနိုင်မယ့် နည်းပြ အမည်ကို ထုတ်ပြောလိုက်တဲ့ ရှရင်ဂမ်</h3>
+                <p>
+                  
+
+
+                  မန်ချက်စတာ ယူနိုက်တက် အသင်းဟာ ရာသီအကုန်မှာ နည်းပြသစ် ရှာဖွေဖို့ အတွက် သေချာသွားခဲ့ပြီ ဖြစ်တာကြောင့် ဒီနေရာမှာ ဘယ်သူ အစားထိုးဝင်ရောက်လာမလဲဆိုတာ ဘောလုံး ပရိသတ်တွေ အတွက် စိတ်ဝင်စားစရာ ဖြစ်လာခဲ့ရပါတယ် ။
+
+                  ဘာဖြစ်လို့လဲဆိုတော့ ယူနိုက်တက် တို့ဟာ ချန်ပီယံလိဂ် ပြိုင်ပွဲမှ ထွက်ခွာခဲ့လိုက်ရပြီ ဖြစ်သလို လက်ရှိ အချိန်မှာလည်း ထိပ်သီး လေးသင်း စာရင်းဝင်နိုင်ဖို့ ရုန်းကန်နေခဲ့ရတာကြောင့် ရန်းဂနစ်ဟာ နည်းပြ အဖြစ်နဲ့ ဆက်ရှိဖို့ မရေရာတော့တာကြောင့်ပဲ ဖြစ်ပါတယ် ။
+                 လက်ရှိ အချိန်မှာတော့ ဆီဗီလာ အသင်းရဲ့ နည်းပြ ဖြစ်သူ ဂျူလီယန် လိုပတ်တီဂွီ နဲ့ စပိန် လက်ရွေးစင် အသင်းရဲ့ နည်းပြဟောင်း လူးဝစ် အင်းနရစ် တို့က ယူနိုက်တက်ဆီ လာရောက်ဖို့ မရှိကြောင်း အတိအကျ ငြင်းဆိုထားခဲ့ကြပါပြီ ။ 
+                </p>
+              </div>
+              <a href="#"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+    <!-- Section 3 Start -->
+    <section class="pb-5" id="Section3" style="display: none">
+      <div class="container">
+        <h1 class="tt p-5" style="font-size: 30px">
+          Kind your Skin, & Care your Beauty!
+        </h1>
+        <div class="grid">
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>1: post</h3>
+              </div>
+              
+              <div class="desc">
+                <h3>Making Care Safer</h3>
+                <p>
+                  There is no longer any question: adopting safer processes for delivering health care can save
+                  lives and lower costs. As a result, hospitals, nursing homes, physicians and pharmacists across
+                 the country are focusing increased attention on improving safety for every patient.
+                 The Quality Improvement Organization (QIO) Program is an ally in this effort. From August
+                  2011 through July 2014, health care providers and stakeholders are encouraged to join in local
+                 improvement initiatives that target three high prevalence, high cost clinical topics: hospitalacquired infections, such as central line associated bloodstream infections; health careassociated conditions in nursing homes, including pressure ulcers; and adverse drug events,
+                 like those that may result when older people take multiple medications.
+                </p>
+              </div>
+              <a href="https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/QualityImprovementOrgs/Downloads/CMS-QIO-Current-Work-Archive-Fact-Sheet-QIOs-Improving-Individual-Patient-Care.pdf"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>2: post</h3>
+              </div>
+              <div class="desc">
+                <h3>A Major Force for Improvement</h3>
+                <p>
+                  QIOs in every state and territory, united in a network administered by the Centers for
+             Medicare & Medicaid Services (CMS), have the flexibility to respond to local needs. At the
+                 same time, they offer providers the opportunity to contribute to broader health quality
+                goals, such as those set by the US Department of Health & Human Services’ National Quality
+                    Strategy and its Action Plan for Reducing Health Care-Associated Infections.
+              Current QIO Program initiatives are aligned with other major health quality improvement
+            programs and can help providers prepare for value-based purchasing, meet their
+commitment to the Partnership for Patients, and comply with certain accreditation or
+licensure requirements.
+                </p>
+              </div>
+              <a href="https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/QualityImprovementOrgs/Downloads/CMS-QIO-Current-Work-Archive-Fact-Sheet-QIOs-Improving-Individual-Patient-Care.pdf"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>3: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Bold Goals for Better Care</h3>
+                <p>
+                  Hospitals that join in the QIO Program’s health care-associated infection (HAI) initiatives will
+contribute to as much as a 50% reduction in national HAI rates. The initiative will reduce
+central line-associated blood stream and catheter-associated urinary tract infections by
+implementing the Comprehensive Unit-Based Safety Program (CUSP); Clostridium difficile,
+and surgical site infections. Hospitals that participate in QIO initiatives can expect to receive technical assistance for reporting HAI data, as well as opportunities
+for peer-to-peer learning through the statewide LAN, access to
+and training on evidence-based tools like the central line checklist,
+support for rapid-cycle improvement, and strategies for spreading
+success within their hospital.
+                </p>
+              </div>
+              <a href="https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/QualityImprovementOrgs/Downloads/CMS-QIO-Current-Work-Archive-Fact-Sheet-QIOs-Improving-Individual-Patient-Care.pdf"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>4: post</h3>
+              </div>
+              
+              <div class="desc">
+                <h3>New Ways to Work Together</h3>
+                <p>
+                  The latest in improvement science, including new models for accelerating and spreading
+change, has shaped the QIO Program’s approach. This means providers have more and
+different ways to be a part of QIO initiatives. QIOs are functioning differently, too. Rather than
+limiting their role to technical assistance, they are convening statewide learning and action
+networks (LANs) that recognize everyone has knowledge that can contribute to better care.
+By participating in a LAN, health care providers can harness the power of a 24/7 community
+for addressing common challenges, connect with a peer facility for mentoring, and be the
+first to know about improvement breakthroughs–and how they can replicate them in their
+own facility or practice. 
+                </p>
+              </div>
+              <a href="https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/QualityImprovementOrgs/Downloads/CMS-QIO-Current-Work-Archive-Fact-Sheet-QIOs-Improving-Individual-Patient-Care.pdf"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>5: post</h3>
+              </div>
+              
+              <div class="desc">
+                <h3>Vitamins and Nutrients for Healthy, Strong Nails</h3>
+                <p>Biotin is a B-complex vitamin, also known as vitamin B7, coenzyme R and vitamin H.
+
+                  It promotes healthy cell growth and aids in the metabolism of protein-building amino acids that are essential for nail growth.
+                  
+                  Biotin-rich foods and supplements may help strengthen your brittle fingernails. A few small studies support biotin supplement use to that effect (1Trusted Source, 2Trusted Source, 3Trusted Source).
+                  
+                  One study in 35 people with brittle fingernails found that 2.5 mg of biotin per day for six weeks to seven months improved symptoms in 63% of participants (2Trusted Source).
+                  
+                  Deficiency in this vitamin is rare, and while there is no Recommended Dietary Allowance (RDA) for biotin, the Adequate Intake (AI) recommendation for adults has been set at 30 mcg per day (4Trusted Source).
+                  
+                  Biotin is most concentrated in organ meats such as liver, but can also be found in egg yolk, dairy products, yeast, salmon, avocado, sweet potato, nuts, seeds and even cauliflower.</p>
+              </div>
+              <a href="https://www.healthline.com/nutrition/vitamins-for-nails#TOC_TITLE_HDR_3"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>6: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Other B Vitamins</h3>
+                <p>
+                  Other B vitamins are also important for nail health.
+
+         Vitamin B12 plays a role in iron absorption, as well as the development of red blood cells. Both iron and B12 are necessary for keeping nails strong and healthy.
+
+           A deficiency in vitamin B12 can result in entirely blue nails, bluish-black pigments with wavy longitudinal dark streaks and brownish pigmentation (5Trusted Source, 6Trusted Source).
+
+           Likewise, folate, or vitamin B9, is important for nail growth and health by contributing to red blood cell formation and the development of new cells.
+
+            A deficiency in folate can cause a pigment change in your nails and make them rigid and brittle (7Trusted Source).
+
+            To prevent deficiencies, adults require 2.4 mcg of vitamin B12 and 400 mcg of folate per day, though pregnant women have an increased need (4Trusted Source).
+
+          Folate can be found in dark green vegetables, citrus fruits, beans, peas, lentils, nuts, seeds and avocado. On the other hand, B12 is primarily found in animal foods, such as meat, poultry, fish, eggs and dairy, though it can be fortified into other foods and beverages.
+                </p>
+              </div>
+              <a href="https://www.healthline.com/nutrition/vitamins-for-nails#TOC_TITLE_HDR_3"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>7: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Iron</h3>
+                <p>
+                  Iron composes the center of red blood cells, which carry oxygen to your organs and every cell in your body — including your nails.
+
+Without iron, oxygen does not get adequately carried to your cells.
+
+As oxygen is needed for healthy nails, an iron deficiency or anemia can lead to vertical ridges in your nails or your nails may concave or “spoon” (7Trusted Source, 8Trusted Source).
+
+RDAs for iron vary considerably depending on age and gender. The recommendation for men is 8 mg per day, while that of women aged 19–50 is 18 mg per day. After women hit age 50 or go through menopause, their iron needs drop to 8 mg daily (9Trusted Source).
+
+Your body absorbs the iron found in animal foods, such as beef, chicken, fish and eggs, better than that in plant foods like dark green leafy vegetables, peanuts, seeds, beans and other fortified foods.
+
+However, eating a food rich in vitamin C together with a plant-based iron food source improves absorption. For example, eating oranges and strawberries alongside a spinach salad with beans and seeds improves your iron absorption.
+                </p>
+              </div>
+              <a href="https://www.healthline.com/nutrition/vitamins-for-nails#TOC_TITLE_HDR_3"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>8: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Magnesium</h3>
+                <p>
+                  Magnesium is a mineral involved in over 300 reactions in your body, including protein synthesis, which is required for nail growth (10Trusted Source).
+
+                  Vertical ridges in your nails may be a sign of a magnesium deficiency. Despite worldwide availability of this mineral, the World Health Organization (WHO) reports that less than 60% of the US population consumes the recommended amount (11Trusted Source).
+                  
+                  The RDA is 400-420 mg and 310–320 mg per day for men and women respectively (9Trusted Source).
+                  
+                  Whole grains, specifically whole wheat, are a rich source of magnesium. Dark green leafy vegetables, as well as quinoa, almonds, cashews, peanuts, edamame and black beans, are good sources, too.
+                </p>
+                
+              </div>
+              <a href="https://www.healthline.com/nutrition/vitamins-for-nails#TOC_TITLE_HDR_3"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+    <!-- Section 4 Start -->
+    <section class="pb-5" id="Section4" style="display: none">
+      <div class="container">
+        <h1 class="p-5 tt" style="font-size: 30px">
+          Keep in touch with Modern Technology!
+        </h1>
+        <div class="grid">
+          <div class="item blog shadow">
+            <div class="content">
+              <div class="title">
+                <h3>1: post</h3>
+              </div>
+              <div class="desc">
+                <h3>ndroid 12: Everything you need to know about Google’s new big update to the popular OS!</h3>
+                <p>
+                  Android is the world’s most popular smartphone operating system, running on over three billion smartphones. As a result, even the tiniest of changes in the OS has the potential to affect millions of users. But because of the way Android updates are delivered, it’s debatable whether these changes actually make a difference. Despite that, we’re always looking forward to the next big Android update in the hope that it brings significant change. Speaking of which, Android 12 is now official in its stable form starting with the Pixel 6 and Pixel 6 Pro. In case you missed our previous coverage, here’s every single thing we know about Android 12.
+                </p>
+                <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+              </div>
+            </div>
+          </div>
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>2: post</h3>
+              </div>
+              
+              <div class="desc">
+                <h3>Is Android 12 really called “Snow Cone”?</h3>
+                <p>
+                  Android 12 is called…Android 12. Google ditched the dessert-themed names with Android 10. So what we get is just Android 12. Plain, simple, and easy to follow.
+
+With that being said, Google continues to use dessert-themed names in its internal codebase. Android 10 was internally known as Quince Tart, Android 11 was Red Velvet Cake, and we know that Android 12 is internally called Snow Cone
+                </p>
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>3: post</h3>
+              </div>
+             
+              <div class="desc">
+                <h3>When did Android 12 release?</h3>
+                <p>
+                  Google had shared a broad timeline for the Developer Previews, Beta, and Stable releases of Android 12 earlier. On 4 October 2021, Google officially launched Android 12. However, it was available to install on Pixel phones starting from 19 October, the same day as the Pixel 6 launch. The best way to experience Android 12 currently is via a Pixel device. If you’re looking to get a new one, you can take a look at our Pixel 6 Pro review to see what Google has to offer on its flagship phone for 2021.
+
+
+                </p>
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>4: post</h3>
+              </div>
+              <div class="desc">
+               
+                <h3>Android 12 Developer Preview</h3>
+                <p>
+                  Android 12 made its first appearance via the first Developer Preview release, which started rolling out on February 18th, 2021. Google subsequently released a minor patch that addressed several bugs and issues that users had been experiencing while using the first Developer Preview build. Android 12 Developer Preview 2 went live on March 17th, 2021, while Android 12 Developer Preview 3 went live on April 21st, 2021.
+
+As the name implied, the Android 12 Developer Previews allowed developers to begin platform migration and start the adaption process for their apps. Google detailed all of the major platform changes in the previews to inform the entire Android ecosystem of what’s coming.
+
+
+                </p>
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>5: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Android 12 Beta with Platform Stability</h3>
+                <p>
+                  After about three beta releases, Android 12 achieved Platform Stability status, co-existing alongside the Beta status with the release on August 11th. Platform Stability means the Android 12 SDK, NDK APIs, app-facing surfaces, platform behaviors, and even restrictions on non-SDK interfaces have been finalized.
+
+As a result, no further changes happen in how Android 12 behaves or how APIs function in the betas that follow. At this point, developers could start updating their apps to target Android 12 (API Level 31) without being concerned about any unexpected changes breaking their app behavior.
+                </p>
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>6: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Android 12 Stable
+                </h3>
+                <p>
+                  After the Release Candidate builds, Google rolled out the first Android 12 stable release on October 19th. Google’s Pixel devices were the first to get the Android 12 stable release.
+
+For non-Pixel phones, we expect to see wider public betas at this stage. The exact timeline for the same will depend upon your phone and its OEM’s plans. A good rule of thumb is that flagships will be prioritized for the update, so if you have a phone that’s lower down the price range, you can expect to receive the update a few weeks or months down the line.
+                </p>
+                
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item project">
+            <div class="content">
+              <div class="title">
+                <h3>7: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Android 12 Custom ROMs</h3>
+                <p>
+                  If your phone isn’t officially supported, or your OEM isn’t rolling out the Android 12 update for your smartphone, you can always check if there is an Android 12 custom ROM out there for your device on the XDA forums. Custom ROMs are a great way to experience the latest Android version if an official update isn’t available for your smartphone. This generally happens when your phone is slightly older or if it’s a mid-range or budget-oriented smartphone that the manufacturer doesn’t want to provide extended software support for.
+                </p>
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>8: post</h3>
+              </div>
+              <div class="desc">
+                <h3>What’s new with Android 12?</h3>
+                <p>
+                  Go ahead and grab something to eat, a snow cone perhaps, because there are a lot of changes, both big and small, that are coming with Android 12. All Android version bumps bring along major changes. While changes over the past few years have been less radical than the sweeping changes in the early life of Android — which is a sign of the platform maturing over the years — Android 12 is an exception. This version of Android is being described as the biggest UX change for the OS since Android 5.0 Lollipop.
+
+We’re focusing on all new changes that are coming with every Developer Preview and Beta release, and then highlighting the changes we’ve seen in leaks and code commits, but not yet seen in live builds.
+                </p>
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item photo">
+            <div class="content">
+              <div class="title">
+                <h3>9: post</h3>
+              </div>
+              
+              <div class="desc">
+                <h3>Material You</h3>
+                <p>
+                  Material You is one of the biggest changes on Android 12. Leaked in the past as Material NEXT, Material You is the next iteration of Material Design. This design language isn’t going to be restricted to Android and will be seen across a wider variety of Google services. But for Android, this forms one of the bigger visual overhauls the OS has seen in several years. There’s a lot of focus on color and customization, allowing users to choose their own color swatches, contrast, element sizes, line widths, and more.
+                </p>
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+
+          <div class="item blog">
+            <div class="content">
+              <div class="title">
+                <h3>10: post</h3>
+              </div>
+              <div class="desc">
+                <h3>Wallpaper-based UX Theming</h3>
+                <p>
+                  Going hand-in-hand with Material You is the new wallpaper-based UX theming engine in Android 12. This feature was leaked previously as “monet”, and is a culmination of the years of work on OMS and RRO on the Android platform.
+                </p>
+                <p>
+                  ndroid 12 now automatically chooses a set of correlative color palettes across the system UI based on the colors used in the phone’s current wallpaper. The colors will apply uniformly across elements such as the lockscreen, quick settings, notifications panel, and even the newly added adaptive widgets.
+                </p>
+              </div>
+              <a href="https://www.xda-developers.com/android-12/"> <button class="btn post">Read More >></button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 5 Start -->
+    <section class=" " id="Section5" style="display: none">
+      <div class="slider-container">
+        <div class="left-slide">
+          <div style="background-color: #fd3555">
+            <h1>Nature</h1>
+            <a href="https://www.nature.com/"
+              ><button class="btn btn-outline-light btn-flat">
+                Explore
+              </button></a
+            >
+          </div>
+          <div style="background-color: #2a86ba">
+            <h1>World's Religions</h1>
+            <a href="https://www.visualcapitalist.com/mapped-major-religions-of-the-world/"
+              ><button class="btn btn-outline-light btn-flat">
+                Explore
+              </button></a
+            >
+          </div>
+          <div style="background-color: #252e33">
+            <h1>Politics</h1>
+            <a href="https://en.wikipedia.org/wiki/Politics"
+              ><button class="btn btn-outline-light btn-flat">
+                Explore
+              </button></a
+            >
+          </div>
+          <div style="background-color: #ffb866">
+            <h1>Entertainment</h1>
+            <a href="https://youtu.be/rQ_ecp8wINs?list=RDCLAK5uy_k1VVBVsS6pu1pVkYZK2B0EWic3i4j_TY4"
+              ><button class="btn btn-outline-light btn-flat">
+                Explore
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="right-slide">
+          <div
+            style="
+              background-image: url('https://images.unsplash.com/photo-1603190287605-e6ade32fa852?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('https://images.unsplash.com/photo-1591189327503-5053a8aed8d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('https://images.pexels.com/photos/7236028/pexels-photo-7236028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            "
+          ></div>
+        </div>
+        <div class="action-buttons">
+          <button class="down-button">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+          <button class="up-button">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="footer-dark bg-secondary p-5">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5 col-md-3 item item1 mt-3 mb-3 ml-2">
+              <img
+                src="Images/icon/logo.png"
+                alt=""
+                srcset=""
+                style="width: 200px"
+              />
+            </div>
+            <div class="col-sm-5 col-md-3 item item1 ml-2 mt-3 mb-3">
+              <h3>Content Imformation</h3>
+              <ul>
+                <li>301 The Greenhouse,Custrad</li>
+                <li>Factory,landon,E2 8DY.</li>
+                <li>
+                  Email:
+                  <a
+                    href="mailto:nayoolwin256@gmail.com"
+                    style="color: rgb(48, 46, 46); text-decoration: none"
+                    >Goodvide@gmail.com</a
+                  >
+                </li>
+                <li>
+                  Phone:
+                  <a
+                    href="tel:09962297286"
+                    style="color: rgb(48, 46, 46); text-decoration: none"
+                  >
+                    +00 112323980
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-5 col-md-2 item item1 mt-3 mb-3">
+              <h3>Company</h3>
+              <ul>
+                <li>Career</li>
+                <li>Resources</li>
+                <li>News& Feed</li>
+              </ul>
+            </div>
+            <div class="col-sm-4 item text mt-3 mb-3">
+              <h3>Newsletter</h3>
+              <p class="card-text pb-2">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+              </p>
+              <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer row flex-wrap">
+          <p class="col-sm-5 col-md-1 item flex-grow-1">
+            Copyright 2020.All Right Reserved.
+          </p>
+          <!--****Icon List *****-->
+          <div class="col-sm-5 col-md-3 item justify-content-end">
+            <a
+              href="www.faccebook.com"
+              class="fa-brands fa-facebook-f"
+              title="facebook"
+              style="color: black; size: 32px; margin-right: 10px"
+            ></a>
+            <a
+              href="www.twitter.com"
+              class="fa-brands fa fa-twitter"
+              title="twitter"
+              style="color: aqua; size: 32px; margin-right: 10px"
+            ></a>
+            <a
+              href="www.youtube.com"
+              class="fa-brands fa fa-youtube"
+              title="Youtube"
+              style="color: red; size: 32px; margin-right: 10px"
+            ></a>
+            <a
+              href="www.Instagram.com"
+              class="fa-brands fa fa-instagram"
+              title="Instagram"
+              style="color: coral; size: 32px; margin-right: 10px"
+            ></a>
+          </div>
+          <!-- <div class="col-sm-1" ></div> -->
+          <div class="col-sm-5 col-md-1 item">
+            <a href="#home" style="float: right"
+              ><i class="fa-solid fa-circle-chevron-up fa-2xl"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var divs = ["Section1", "Section2", "Section3", "Section4", "Section5"];
+      var visibleId = null;
+      function show(id) {
+        if (visibleId !== id) {
+          visibleId = id;
+        }
+        hide();
+      }
+      function hide() {
+        var div, i, id;
+        for (i = 0; i < divs.length; i++) {
+          id = divs[i];
+          div = document.getElementById(id);
+          if (visibleId === id) {
+            div.style.display = "block";
+          } else {
+            div.style.display = "none";
+          }
+        }
+      }
+    </script>
+    <script src="./JS Files/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JS Files/cat.js"></script>
+    <script src="./JS Files/about.js"></script>
+  </body>
+</html>
